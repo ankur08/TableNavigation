@@ -15,6 +15,11 @@
 		9250CE531D7EBA7200EB62E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9250CE511D7EBA7200EB62E4 /* LaunchScreen.storyboard */; };
 		9250CE5E1D7EBA7300EB62E4 /* TableNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9250CE5D1D7EBA7300EB62E4 /* TableNavigationTests.m */; };
 		9250CE691D7EBA7300EB62E4 /* TableNavigationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9250CE681D7EBA7300EB62E4 /* TableNavigationUITests.m */; };
+		9250CE771D7EC22F00EB62E4 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 9250CE761D7EC22F00EB62E4 /* 7.png */; };
+		9250CE7B1D7EC3BB00EB62E4 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9250CE791D7EC3BB00EB62E4 /* TableViewCell.m */; };
+		9250CE7C1D7EC3BB00EB62E4 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9250CE7A1D7EC3BB00EB62E4 /* TableViewCell.xib */; };
+		92EEB3201D7F049600B0E33C /* DetailsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92EEB31F1D7F049600B0E33C /* DetailsList.plist */; };
+		92F4CE6A1D7EE49D00AA4DC2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F4CE691D7EE49D00AA4DC2 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,13 @@
 		9250CE641D7EBA7300EB62E4 /* TableNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9250CE681D7EBA7300EB62E4 /* TableNavigationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableNavigationUITests.m; sourceTree = "<group>"; };
 		9250CE6A1D7EBA7300EB62E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9250CE761D7EC22F00EB62E4 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7.png; path = "../../untitled folder/DemoTable/DemoTable/7.png"; sourceTree = "<group>"; };
+		9250CE781D7EC3BB00EB62E4 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		9250CE791D7EC3BB00EB62E4 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		9250CE7A1D7EC3BB00EB62E4 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		92EEB31F1D7F049600B0E33C /* DetailsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DetailsList.plist; sourceTree = "<group>"; };
+		92F4CE681D7EE49D00AA4DC2 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		92F4CE691D7EE49D00AA4DC2 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +118,17 @@
 				9250CE491D7EBA7200EB62E4 /* ViewController.h */,
 				9250CE4A1D7EBA7200EB62E4 /* ViewController.m */,
 				9250CE4C1D7EBA7200EB62E4 /* Main.storyboard */,
+				92F4CE681D7EE49D00AA4DC2 /* DetailViewController.h */,
+				92F4CE691D7EE49D00AA4DC2 /* DetailViewController.m */,
 				9250CE4F1D7EBA7200EB62E4 /* Assets.xcassets */,
+				9250CE761D7EC22F00EB62E4 /* 7.png */,
 				9250CE511D7EBA7200EB62E4 /* LaunchScreen.storyboard */,
 				9250CE541D7EBA7200EB62E4 /* Info.plist */,
 				9250CE431D7EBA7200EB62E4 /* Supporting Files */,
+				9250CE781D7EC3BB00EB62E4 /* TableViewCell.h */,
+				9250CE791D7EC3BB00EB62E4 /* TableViewCell.m */,
+				9250CE7A1D7EC3BB00EB62E4 /* TableViewCell.xib */,
+				92EEB31F1D7F049600B0E33C /* DetailsList.plist */,
 			);
 			path = TableNavigation;
 			sourceTree = "<group>";
@@ -244,8 +263,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9250CE531D7EBA7200EB62E4 /* LaunchScreen.storyboard in Resources */,
+				9250CE7C1D7EC3BB00EB62E4 /* TableViewCell.xib in Resources */,
 				9250CE501D7EBA7200EB62E4 /* Assets.xcassets in Resources */,
+				92EEB3201D7F049600B0E33C /* DetailsList.plist in Resources */,
 				9250CE4E1D7EBA7200EB62E4 /* Main.storyboard in Resources */,
+				9250CE771D7EC22F00EB62E4 /* 7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92F4CE6A1D7EE49D00AA4DC2 /* DetailViewController.m in Sources */,
 				9250CE4B1D7EBA7200EB62E4 /* ViewController.m in Sources */,
+				9250CE7B1D7EC3BB00EB62E4 /* TableViewCell.m in Sources */,
 				9250CE481D7EBA7200EB62E4 /* AppDelegate.m in Sources */,
 				9250CE451D7EBA7200EB62E4 /* main.m in Sources */,
 			);
@@ -498,6 +522,7 @@
 				9250CE6F1D7EBA7300EB62E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9250CE701D7EBA7300EB62E4 /* Build configuration list for PBXNativeTarget "TableNavigationTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +531,7 @@
 				9250CE721D7EBA7300EB62E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9250CE731D7EBA7300EB62E4 /* Build configuration list for PBXNativeTarget "TableNavigationUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +540,7 @@
 				9250CE751D7EBA7300EB62E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
